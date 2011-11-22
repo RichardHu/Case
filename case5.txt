@@ -1,0 +1,3 @@
+Case：introduction page若輸入中文則preview project時會出現亂碼
+
+Solution：測試可以正常顯示，並提示同學正確語法。 
