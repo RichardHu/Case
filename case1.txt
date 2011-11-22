@@ -1,0 +1,3 @@
+Case：Chanllenge Question回答錯不能try again
+
+Solution：目前的設計是Try again前要先回前面某個step重新學習，但是回答錯直接Try again是不允許的。 
