@@ -1,0 +1,4 @@
+Case：Car Graph的圖形沒顯示出來
+
+Solution：在編輯此Step時左上角「Editor View 」選擇「Advanced」可進行編輯，
+          修改"img": "assets/house-red.png"屬性，但前提是必須配合上傳自己想顯示的圖形如「house-red.png」。 
