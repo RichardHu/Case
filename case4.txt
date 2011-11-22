@@ -1,0 +1,3 @@
+Case：老師帳號使用Idea Basket編輯時有錯誤訊息，Idea Basket學生於想法欄輸入中文存檔後會出現問號，無法正常顯示。
+
+Solution：Berkeley已修正此問題，等Berkeley發佈新版本修正，系統Update後就不會有此問題。 
