@@ -1,1 +1,12 @@
 Case：教師註冊頁面刪除"州"欄位
+
+Solution:
+
+1.將前端程式:webapp/src/main/webapp/WEB-INF/jsp/tels/teacher/registerteacher.jsp中州欄位刪除或註解掉
+2.將後端程式:webapp/src/main/java/org/telscenter/sail/webapp/presentation/validators/TeacherAccountFormValidator.java註解掉以下
+  //        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "userDetails.state",
+  //         "error.state-not-specified");
+3.TeacherAccountFormValidator.java編譯成TeacherAccountFormValidator.class
+4.將TeacherAccountFormValidator.class檔案放到/root/workspace/tomcat/webapps/webapp/WEB-INF/classes/org/telscenter/sail/webapp/presentation/validators/
+5.重啟Tomcat
+
