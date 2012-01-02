@@ -1,4 +1,4 @@
-Case：修改上傳取可上傳jnlp檔案
+Case：修改專案上傳區可上傳jnlp檔案
 
 Solution:
 
