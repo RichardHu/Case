@@ -1,0 +1,15 @@
+Case：修改專案上傳區容量
+
+Solution:
+
+1.將/root/workspace/tomcat/webapps/vlewrapper/vle/util/componentloader.js
+  之參數MAX_ASSET_SIZE:10485760改為MAX_ASSET_SIZE:52428800
+
+2.修改WISE-VLE/src/main/java/utils/AssetManager.java
+  找到MAX_SIZE並修改容量為52428800l --> private final static Long MAX_SIZE = 52428800l;
+
+3.將AssetManager.java編譯成AssetManager.class
+
+4.將AssetManager.class放到tomcat/webapps/vlewrapper/WEB-INF/classes/utils
+
+5.重啟tomcat

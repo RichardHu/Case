@@ -1,0 +1,11 @@
+Case：修改上傳取可上傳jnlp檔案
+
+Solution:
+
+1.找到/root/workspace/tomcat/webapps/vlewrapper/vle/util/componentloader.js檔案
+  中allowedAssetExtensions:['jpg', 'jpeg', 'gif', 'png', 'swf', 'flv', 'bmp', 'tif', 'pdf', 'nlogo', 'jar', 'cml', 'mml', 'otml', 'mov', 'mp4', 'avi', 'wmv', 'mpg', 'mpeg', 'ogg']
+
+2.在陣列中加入'jnlp'
+
+3.重啟tomcat
+
